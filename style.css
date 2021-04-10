@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.flows-wrapper {
+  width:300px;
+  margin-right: 30px;
+  background-color: #eeeeee;
+  padding: 10px;
+  position: relative;
+}
+
+.flows-wlapper:last-child {
+  margin-right: 0;
+}
+
+.image-box1 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.image-box2 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.image-box3 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.step-num {
+  background-color: #ff9a4b;
+  color: #fff;
+  padding: 5px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+
+footer {
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    display: block;
+    width: 90%;
+  }
+  .flows-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .image-box1, .image-box2, .image-box3 {
+    width: 100%;
+  }
+}
+
